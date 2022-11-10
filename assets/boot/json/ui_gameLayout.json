@@ -1,0 +1,89 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Sprite",
+      "sprite": "BACKGROUND",
+      "layout": {
+        "width": "100%GW",
+        "height": "100%GH"
+      }
+    },
+    {
+      "type": "Group",
+      "exportName": "gameBoardContainer",
+      "layout": {
+        "left": "50%GW"
+      },
+      "elements": [
+        {
+          "type": "Sprite",
+          "sprite": "BUBBLE_FIELD_BACKGROUND",
+          "layout": {
+            "height": "100%GH"
+          },
+          "props": {
+            "y": 0,
+            "anchor": {
+              "x": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "exportName": "shooterContainer",
+      "layout": {
+        "left": "50%GW",
+        "bottom": 0
+      }
+    },
+    {
+      "type": "Group",
+      "import": "ui_topPanel",
+      "layout": {
+        "left": "50%GW"
+      }
+    },
+    {
+      "type": "Group",
+      "import": "ui_muteMusicButton",
+      "exportName": "muteMusicButton",
+      "props": {
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        }
+      },
+      "layout": {
+        "right": -50,
+        "top": 150
+      }
+    },
+    {
+      "type": "Group",
+      "import": "ui_muteButton",
+      "exportName": "muteButton",
+      "props": {
+        "scale": {
+          "x": 0.9,
+          "y": 0.9
+        }
+      },
+      "layout": {
+        "right": -50,
+        "top": 40
+      }
+    },
+    {
+      "type": "Sprite",
+      "sprite": "orientationScreen",
+      "exportName": "orientationScreen",
+      "layout": {
+          "width": "100%GW",
+          "height": "100%GH"
+      }
+  }
+  ]
+}

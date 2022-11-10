@@ -1,0 +1,258 @@
+{
+  "minScreenHeight": 880,
+  "secondChance": {
+    "countdownSec": 10
+  },
+  "grid": {
+    "desktop": {
+      "width": 17,
+      "baseHeight": 17,
+      "cellWidth": 46,
+      "cellHeight": 44,
+      "levelMatchAssurance": {
+        "numberOfBubbles": 4,
+        "spreadDepth": 3
+      },
+      "generateLevelToHeightDifference": -7,
+      "notEnoughBubblesRefill": {
+        "row": 5,
+        "refillRows": 6
+      }
+    },
+    "mobile": {
+      "width": 11,
+      "baseHeight": 17,
+      "cellWidth": 46,
+      "cellHeight": 44,
+      "levelMatchAssurance": {
+        "numberOfBubbles": 3,
+        "spreadDepth": 3
+      },
+      "generateLevelToHeightDifference": -7,
+      "notEnoughBubblesRefill": {
+        "row": 5,
+        "refillRows": 6
+      }
+    }
+  },
+  "bonusPoints": {
+    "combos": [
+      {
+        "requiredHitsInRow": 3,
+        "shoutouts": ["Good!", "Well done!", "Nice!"],
+        "points": 300
+      },
+      {
+        "requiredHitsInRow": 5,
+        "shoutouts": ["Great!", "Deluxe!", "Neat!"],
+        "points": 500
+      },
+      {
+        "requiredHitsInRow": 7,
+        "shoutouts": ["Awesome!", "Top!", "Wicked!"],
+        "points": 1000
+      },
+      {
+        "requiredHitsInRow": 9,
+        "shoutouts": ["Wow!", "Excellent!", "Very Well!"],
+        "points": 1500
+      },
+      {
+        "requiredHitsInRow": 11,
+        "shoutouts": ["Wonderful!", "Wohoo!", "Marvelous!"],
+        "points": 2000
+      },
+      {
+        "requiredHitsInRow": 13,
+        "shoutouts": ["First Class!", "Super Excellent!", "Powerful!"],
+        "points": 2500
+      },
+      {
+        "requiredHitsInRow": 15,
+        "shoutouts": ["Incredible!", "Superb!", "Ace!"],
+        "points": 3000
+      }
+    ],
+    "bigDrops": [
+      {
+        "bubblesRequired": 10,
+        "shoutout": "Small Drop Bonus!",
+        "points": 250
+      },
+      {
+        "bubblesRequired": 20,
+        "shoutout": "Big Drop Bonus!",
+        "points": 500
+      },
+      {
+        "bubblesRequired": 30,
+        "shoutout": "Huge Drop Bonus!",
+        "points": 1000
+      }
+    ]
+  },
+  "shooter": {
+    "mutlicolorIncreasePerBubble": 5,
+    "restAfterMulticolor": true,
+    "chances": [4, 3, 2, 1, 1]
+  },
+  "refiller": {
+    "refillTimePerScore": [
+      {
+        "points": 0,
+        "time": 20000
+      },
+      {
+        "points": 10000,
+        "time": 19000
+      },
+      {
+        "points": 20000,
+        "time": 18000
+      },
+      {
+        "points": 30000,
+        "time": 17000
+      },
+      {
+        "points": 40000,
+        "time": 16000
+      },
+      {
+        "points": 50000,
+        "time": 15000
+      },
+      {
+        "points": 60000,
+        "time": 14500
+      },
+      {
+        "points": 70000,
+        "time": 14000
+      },
+      {
+        "points": 80000,
+        "time": 13500
+      },
+      {
+        "points": 90000,
+        "time": 13000
+      },
+      {
+        "points": 100000,
+        "time": 12500
+      },
+      {
+        "points": 110000,
+        "time": 12000
+      },
+      {
+        "points": 120000,
+        "time": 11500
+      },
+      {
+        "points": 130000,
+        "time": 11000
+      },
+      {
+        "points": 140000,
+        "time": 10500
+      },
+      {
+        "points": 150000,
+        "time": 10000
+      },
+      {
+        "points": 160000,
+        "time": 9500
+      },
+      {
+        "points": 170000,
+        "time": 9000
+      },
+      {
+        "points": 180000,
+        "time": 8500
+      },
+      {
+        "points": 190000,
+        "time": 8000
+      },
+      {
+        "points": 200000,
+        "time": 7500
+      },
+      {
+        "points": 210000,
+        "time": 7000
+      },
+      {
+        "points": 220000,
+        "time": 6500
+      },
+      {
+        "points": 230000,
+        "time": 6000
+      },
+      {
+        "points": 240000,
+        "time": 5500
+      },
+      {
+        "points": 250000,
+        "time": 5000
+      }
+    ]
+  },
+  "potsConfig": {
+    "colliders": [
+      {
+        "x": 0.2,
+        "width": 0.01358695652173913,
+        "height": 30
+      },
+      {
+        "x": 0.4,
+        "width": 0.01358695652173913,
+        "height": 30
+      },
+      {
+        "x": 0.6,
+        "width": 0.01358695652173913,
+        "height": 30
+      },
+      {
+        "x": 0.8,
+        "width": 0.01358695652173913,
+        "height": 30
+      }
+    ],
+    "pointsAreas": [
+      {
+        "x": 0,
+        "width": 0.2,
+        "points": 50
+      },
+      {
+        "x": 0.2,
+        "width": 0.2,
+        "points": 100
+      },
+      {
+        "x": 0.4,
+        "width": 0.2,
+        "points": 250
+      },
+      {
+        "x": 0.6,
+        "width": 0.2,
+        "points": 100
+      },
+      {
+        "x": 0.8,
+        "width": 0.2,
+        "points": 50
+      }
+    ]
+  }
+}

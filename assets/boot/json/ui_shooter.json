@@ -1,0 +1,78 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Group",
+      "props": {
+        "y": 5
+      },
+      "elements": [
+        {
+          "type": "Sprite",
+          "exportName": "inputCacher",
+          "inputBlocker": true,
+          "hitArea": {
+            "x": -10000,
+            "y": -10000,
+            "width": 100000,
+            "height": 100000
+          }
+        },
+        {
+          "type": "Sprite",
+          "sprite": "Shooter_Background",
+          "props": {
+            "anchor": {
+              "x": 0.5,
+              "y": 1
+            }
+          }
+        },
+        {
+          "type": "Sprite",
+          "exportName": "colorBar",
+          "sprite": "Power_Level",
+          "props": {
+            "anchor": {
+              "x": 0.5,
+              "y": 1
+            }
+          }
+        },
+        {
+          "type": "Sprite",
+          "sprite": "Shooter",
+          "props": {
+            "anchor": {
+              "x": 0.5,
+              "y": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "exportName": "mainBubbleContainer",
+      "props": {
+        "y": -50,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "type": "Group",
+      "exportName": "refillerContainer",
+      "props": {
+        "scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "x": -350,
+        "y": -45
+      }
+    }
+  ]
+}

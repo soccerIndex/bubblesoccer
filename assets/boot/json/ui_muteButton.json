@@ -1,0 +1,37 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Button",
+      "triggerActions": ["toggleMute"],
+      "sprite": "SOUND_BUTTON",
+      "props": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "type": "Sprite",
+      "exportName": "label",
+      "sprite": "SOUND_ON",
+      "flags": {
+        "soundOn": [{
+          "exportName": "label",
+          "sprite": "SOUND_ON"
+        }],
+        "soundOff": [{
+          "exportName": "label",
+          "sprite": "SOUND_OFF"
+        }]
+      },
+      "props": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Sprite",
+      "sprite": "text_shade_bg",
+      "props": {
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "scale": {
+          "x": 2.5,
+          "y": 2.5
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "exportName": "countdownText",
+      "text": "No more videos",
+      "maxWidth": 550,
+      "style": {
+        "font": "Futura-Bold",
+        "fill": "#ffffff",
+        "fontSize": 80
+      },
+      "props": {
+        "y": -5,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ],
+  "layout": {
+    "left": "50%GW",
+    "top": "48%GH"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  
+  "gameSlug": "bubble-shooter-soccer-2",
+  "gameBuild": "1.2.5",
+  "gameID": "test",
+  "gameTitle": "Bubble Shooter Soccer 2",
+  "interface": "sgSdk",
+  "inAppPurchase": false,
+  "leaderboards": false,
+  "adsConfig": {
+    "rewarded": true,
+    "adFreeInitialLevels": 0,
+    "interstitialCooldownLevel": 0,
+    "longGameplayCooldownMS": 150000,
+    "enableLongGameplayAds": true,
+    "supportsAdPlayButton": true
+  },
+  "options": {
+    "reloadOnFold": true
+  }
+}

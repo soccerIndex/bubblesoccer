@@ -1,0 +1,226 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Graphics",
+      "dynamic": true,
+      "inputBlocker": true,
+      "commands": [
+        {
+          "type": "DrawRectangle",
+          "x": 0,
+          "y": 0,
+          "width": "GW",
+          "height": "GH",
+          "color": "#000000",
+          "alpha": 0.8
+        }
+      ]
+    },
+    {
+      "type": "Group",
+      "exportName": "contentGroup",
+      "layout": {
+        "left": "50%GW",
+        "top": [
+          "50%GH",
+          -440
+        ]
+      },
+      "elements": [
+        {
+          "type": "Text",
+          "text": "GAME OVER",
+          "exportName": "header",
+          "maxWidth": 600,
+          "style": {
+            "font": "Futura-Bold",
+            "fill": "white",
+            "fontSize": 65,
+            "shadow": [
+              0,
+              1,
+              "rgba(0, 0, 0, 0.8)",
+              4
+            ]
+          },
+          "props": {
+            "y": 80,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "type": "Text",
+          "text": "Rank",
+          "maxWidth": 300,
+          "style": {
+            "font": "Futura-Bold",
+            "fill": "white",
+            "fontSize": 40,
+            "shadow": [
+              0,
+              1,
+              "rgba(0, 0, 0, 0.8)",
+              4
+            ]
+          },
+          "props": {
+            "x": -280,
+            "y": 180,
+            "anchor": {
+              "x": 0,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "type": "Text",
+          "text": "Score",
+          "maxWidth": 300,
+          "style": {
+            "font": "Futura-Bold",
+            "fill": "white",
+            "fontSize": 40,
+            "shadow": [
+              0,
+              1,
+              "rgba(0, 0, 0, 0.8)",
+              4
+            ]
+          },
+          "props": {
+            "x": 280,
+            "y": 180,
+            "anchor": {
+              "x": 1,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "type": "Group",
+          "props": {
+            "y": 240
+          },
+          "elements": [
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 0
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 50
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 100
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 150
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 200
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 250
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 300
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 350
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 400
+              }
+            },
+            {
+              "import": "ui_leaderboardEntry",
+              "props": {
+                "y": 450
+              }
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "exportName": "continueButton",
+          "dispatchSignals": [
+            "continueButtonClicked"
+          ],
+          "props": {
+            "y": 800,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "elements": [
+            {
+              "type": "Sprite",
+              "sprite": "CONTINUE_BUTTON",
+              "props": {
+                "scale": {
+                  "x": 1.5,
+                  "y": 1.5
+                },
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "text": "CONTINUE",
+              "maxWidth": 700,
+              "style": {
+                "font": "Futura-Bold",
+                "fill": "white",
+                "fontSize": 50,
+                "shadow": [
+                  0,
+                  1,
+                  "rgba(0, 0, 0, 0.8)",
+                  4
+                ]
+              },
+              "props": {
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

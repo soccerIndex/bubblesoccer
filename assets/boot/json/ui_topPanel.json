@@ -1,0 +1,59 @@
+{
+  "type": "Group",
+  "layout": {
+    "bottom": 0
+  },
+  "elements": [
+    {
+      "type": "Button",
+      "dispatchSignals": [
+        "onPauseButtonClicked"
+      ],
+      "sprite": "PAUSE_BUTTON",
+      "props": {
+        "x": 330,
+        "y": -45,
+        "scale": {
+          "x": 0.6,
+          "y": 0.6
+        },
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "type": "Sprite",
+      "sprite": "Score_Background",
+      "props": {
+        "x": 190,
+        "y": -45,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "type": "Text",
+      "textNotLocalized": "00000",
+      "exportName": "scoreText",
+      "maxWidth": 125,
+      "style": {
+        "font": "Futura-Bold",
+        "fill": "white",
+        "fontSize": 32,
+        "shadow": [0, 0, "rgba(0, 0, 0, 0.5)", 4]
+      },
+      "props": {
+        "x": 215,
+        "y": -43,
+        "anchor": {
+          "x": 0.5,
+          "y": 0.5
+        }
+      }
+    }
+  ]
+}

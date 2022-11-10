@@ -1,0 +1,254 @@
+{
+    "frames": {
+        "dust_part": {
+            "frame": {
+                "x": 320,
+                "y": 530,
+                "w": 40,
+                "h": 40
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 40
+            }
+        },
+        "firework_part_1": {
+            "frame": {
+                "x": 0,
+                "y": 530,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "firework_part_2": {
+            "frame": {
+                "x": 256,
+                "y": 530,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "firework_part_3": {
+            "frame": {
+                "x": 192,
+                "y": 530,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "firework_part_4": {
+            "frame": {
+                "x": 128,
+                "y": 530,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "firework_part_5": {
+            "frame": {
+                "x": 64,
+                "y": 530,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "splash_0": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        },
+        "splash_1": {
+            "frame": {
+                "x": 478,
+                "y": 265,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        },
+        "splash_2": {
+            "frame": {
+                "x": 239,
+                "y": 265,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        },
+        "splash_3": {
+            "frame": {
+                "x": 0,
+                "y": 265,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        },
+        "splash_4": {
+            "frame": {
+                "x": 478,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        },
+        "splash_5": {
+            "frame": {
+                "x": 239,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 235,
+                "h": 261
+            },
+            "sourceSize": {
+                "w": 235,
+                "h": 261
+            }
+        }
+    },
+    "meta": {
+        "app": "https://github.com/Ensighten/spritesmith",
+        "image": "fx.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 713,
+            "h": 590
+        },
+        "scale": 1
+    }
+}

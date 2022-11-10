@@ -1,0 +1,185 @@
+{
+  "type": "Group",
+  "elements": [
+    {
+      "type": "Sprite",
+      "sprite": "BACKGROUND_INVERT",
+      "layout": {
+        "width": "100%GW",
+        "height": "100%GH"
+      }
+    },
+    {
+      "type": "Group",
+      "layout": {
+        "left": "50%GW",
+        "top": "40%GH"
+      },
+      "elements": [
+        {
+          "type": "Text",
+          "exportName": "countdownText",
+          "textNotLocalized": "10",
+          "maxWidth": 500,
+          "style": {
+            "font": "Futura-Bold",
+            "fill": "#005798",
+            "fontSize": 70
+          },
+          "props": {
+            "x": 0,
+            "y": -200,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "type": "Button",
+          "dispatchSignals": [
+            "onButtonClicked"
+          ],
+          "sprite": "Video_Icon_Background",
+          "props": {
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "elements": [
+            {
+              "type": "Sprite",
+              "exportName": "countdownBar",
+              "sprite": "Video_Icon_Bar",
+              "props": {
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            {
+              "type": "Sprite",
+              "exportName": "videoIcon",
+              "sprite": "Video_Icon",
+              "props": {
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "text": "Second Chance?",
+          "maxWidth": 500,
+          "style": {
+            "font": "Futura-Bold",
+            "fill": "#005798",
+            "fontSize": 30
+          },
+          "props": {
+            "y": 170,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          }
+        },
+        {
+          "type": "Button",
+          "dispatchSignals": [
+            "onButtonClicked"
+          ],
+          "exportName": "continueButton",
+          "sprite": "Touch_To_Continue_Button",
+          "props": {
+            "x": 0,
+            "y": 300,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            }
+          },
+          "elements": [
+            {
+              "type": "Sprite",
+              "exportName": "continueButtonLabel",
+              "sprite": "Video_Icon_Button",
+              "props": {
+                "scale": {
+                  "x": 0.8,
+                  "y": 0.8
+                },
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            },
+            {
+              "type": "Text",
+              "text": "CONTINUE",
+              "exportName": "continueButtonLabel",
+              "maxWidth": 300,
+              "style": {
+                "font": "Futura-Bold",
+                "fill": "white",
+                "fontSize": 30,
+                "shadow": [
+                  0,
+                  0,
+                  "rgba(0, 0, 0, 0.8)",
+                  4
+                ]
+              },
+              "props": {
+                "y": 2,
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "Button",
+          "dispatchSignals": [
+            "onNoThanksClicked"
+          ],
+          "props": {
+            "y": 390
+          },
+          "elements": [
+            {
+              "type": "Text",
+              "text": "NO THANKS",
+              "maxWidth": 418,
+              "style": {
+                "font": "Futura-Bold",
+                "fill": "white",
+                "fontSize": 25,
+                "shadow": [
+                  0,
+                  0,
+                  "rgba(0, 0, 0, 0.8)",
+                  4
+                ]
+              },
+              "props": {
+                "anchor": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
