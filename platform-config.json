@@ -1,9 +1,9 @@
 {
   
-  "gameSlug": "bubble-shooter-soccer-2",
+  "gameSlug": "bubble-shooter-soccer",
   "gameBuild": "1.2.5",
-  "gameID": "test",
-  "gameTitle": "Bubble Shooter Soccer 2",
+  "gameID": "",
+  "gameTitle": "Bubble Shooter Soccer",
   "interface": "sgSdk",
   "inAppPurchase": false,
   "leaderboards": false,
