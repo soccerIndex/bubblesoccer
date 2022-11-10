@@ -1,21 +1,15 @@
 {
   
-  "gameSlug": "bubble-shooter-soccer",
-  "gameBuild": "1.2.5",
+  "gameSlug": "",
+  "gameBuild": "",
   "gameID": "",
-  "gameTitle": "Bubble Shooter Soccer",
-  "interface": "sgSdk",
+  "gameTitle": "  ",
+  "interface": "",
   "inAppPurchase": false,
   "leaderboards": false,
   "adsConfig": {
-    "rewarded": true,
-    "adFreeInitialLevels": 0,
-    "interstitialCooldownLevel": 0,
-    "longGameplayCooldownMS": 150000,
-    "enableLongGameplayAds": true,
-    "supportsAdPlayButton": true
-  },
+     },
   "options": {
-    "reloadOnFold": true
+   
   }
 }
